@@ -5,6 +5,8 @@ MultiTool FileMaster is a versatile and comprehensive file management applicatio
 ## Project Overview
 The primary goal of MultiTool FileMaster is to offer users a simple yet powerful platform for efficient file management, integrating multiple functionalities into one cohesive application.
 
+![FileMaster Screenshot](Screenshot1.png)
+
 ## Main Objective
 To provide a user-friendly interface for packing, compressing, encrypting, and sharing files efficiently.
 
