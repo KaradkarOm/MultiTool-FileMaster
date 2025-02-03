@@ -1,48 +1,43 @@
-# MultiTool-FileMaster
+# MultiTool FileMaster
 
-MultiTool FileMaster is a versatile and comprehensive file management application designed to streamline file operations. This tool provides a robust interface for packing, compressing, encrypting, and sharing files seamlessly.
+**MultiTool FileMaster** is a versatile file management application built in Java, providing multiple functionalities for efficient handling of files. The app allows users to pack, compress, encrypt, and decrypt files, alongside advanced features like image compression and secure file sharing. A user-friendly **JavaFX GUI** ensures a seamless experience for managing files and images.
 
-## Project Overview
-The primary goal of MultiTool FileMaster is to offer users a simple yet powerful platform for efficient file management, integrating multiple functionalities into one cohesive application.
+## Features
 
-![FileMaster Screenshot](Screenshot1.png)
-
-## Main Objective
-To provide a user-friendly interface for packing, compressing, encrypting, and sharing files efficiently.
-
-## Key Features
-- Pack multiple files into a single archive.
-- Compress files to save storage space.
-- Encrypt and decrypt files for added security.
-- Share files over a local network.
-- Unpack and decompress files with ease.
-
-## Target Audience
-MultiTool FileMaster is designed for a wide range of users, from developers needing efficient file operations to everyday users looking for a reliable file management tool.
-
-## How It Works
-Users can select files through a user-friendly interface and perform various operations such as packing, compressing, encrypting, and sharing with just a click. The application handles all technical complexities, providing an effortless experience.
+- **Packing Files**: Easily pack multiple files into a single compressed archive.
+- **Compressing Files**: Compress large files to save space.
+- **Encrypting Files**: Secure your files using **AES encryption** to prevent unauthorized access.
+- **Image Compression**: Compress image files while maintaining quality.
+- **Decompressing Files**: Uncompress packed archives to retrieve the original files.
+- **Decrypting Files**: Decrypt encrypted files using the AES algorithm.
+- **File Sharing**: Send and receive files between clients over a network using **socket programming**.
 
 ## Technologies Used
-- **JavaFX**: For the graphical user interface.
-- **GZIP**: For file compression and decompression.
-- **AES**: For secure file encryption and decryption.
-- **Socket Programming**: For file sharing capabilities.
-- **Java**: As the core programming language.
 
-## Inspiration or Motivation
-The project was inspired by the need for a consolidated file management solution that combines multiple essential functions into a single, easy-to-use application.
+- **Java**: Core programming language for file management operations.
+- **JavaFX**: For building the graphical user interface (GUI).
+- **AES Encryption**: For secure encryption and decryption of files and images.
+- **Socket Programming**: For enabling file sharing between multiple clients.
 
-## Future Plans/Development
-- Integration with cloud storage services like Google Drive and Dropbox.
-- Advanced encryption options.
-- Enhanced support for additional file formats.
-- Implementation of dark mode for better user experience.
-- Activity logs and notifications for better user tracking.
+## Screenshots
 
-## Credits & Contributors
-Developed by **Om Karadkar**.
+4. **Using the Application**:
+    - **Pack Files**: Select multiple files to pack into one archive.
+    - **Compress Files**: Select a file to compress.
+    - **Encrypt Files**: Choose a file to encrypt using AES.
+    - **Image Compression**: Choose an image to compress and adjust quality.
+    - **File Sharing**: Use the file-sharing feature to send or receive files over a network.
 
-## Contact Information
-- **Email**: om.22210454@viit.ac.in
+## Future Enhancements
 
+- Implement support for more file formats.
+- Add PDF Master for PDF manipulation.
+- Enhance encryption with stronger algorithms.
+
+## Contributing
+
+Contributions are welcome! Feel free to fork the repository, submit issues, or create pull requests.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
